@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D49E77AA281DC1160077427D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77A9281DC1160077427D /* AppDelegate.swift */; };
+		D49E77AC281DC1160077427D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77AB281DC1160077427D /* SceneDelegate.swift */; };
+		D49E77AE281DC1160077427D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77AD281DC1160077427D /* ViewController.swift */; };
+		D49E77B1281DC1160077427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49E77AF281DC1160077427D /* Main.storyboard */; };
+		D49E77B3281DC1170077427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49E77B2281DC1170077427D /* Assets.xcassets */; };
+		D49E77B6281DC1170077427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49E77B4281DC1170077427D /* LaunchScreen.storyboard */; };
+		D49E77C1281DC1170077427D /* MicroPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77C0281DC1170077427D /* MicroPhoneTests.swift */; };
+		D49E77CB281DC1170077427D /* MicroPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77CA281DC1170077427D /* MicroPhoneUITests.swift */; };
+		D49E77CD281DC1170077427D /* MicroPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E77CC281DC1170077427D /* MicroPhoneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49E77BD281DC1170077427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49E779E281DC1160077427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49E77A5281DC1160077427D;
+			remoteInfo = MicroPhone;
+		};
+		D49E77C7281DC1170077427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49E779E281DC1160077427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49E77A5281DC1160077427D;
+			remoteInfo = MicroPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D49E77A6281DC1160077427D /* MicroPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E77A9281DC1160077427D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D49E77AB281DC1160077427D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D49E77AD281DC1160077427D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D49E77B0281DC1160077427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D49E77B2281DC1170077427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D49E77B5281DC1170077427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D49E77B7281DC1170077427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49E77BC281DC1170077427D /* MicroPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E77C0281DC1170077427D /* MicroPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroPhoneTests.swift; sourceTree = "<group>"; };
+		D49E77C6281DC1170077427D /* MicroPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E77CA281DC1170077427D /* MicroPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroPhoneUITests.swift; sourceTree = "<group>"; };
+		D49E77CC281DC1170077427D /* MicroPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49E77A3281DC1160077427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77B9281DC1170077427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77C3281DC1170077427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D49E779D281DC1160077427D = {
+			isa = PBXGroup;
+			children = (
+				D49E77A8281DC1160077427D /* MicroPhone */,
+				D49E77BF281DC1170077427D /* MicroPhoneTests */,
+				D49E77C9281DC1170077427D /* MicroPhoneUITests */,
+				D49E77A7281DC1160077427D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49E77A7281DC1160077427D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49E77A6281DC1160077427D /* MicroPhone.app */,
+				D49E77BC281DC1170077427D /* MicroPhoneTests.xctest */,
+				D49E77C6281DC1170077427D /* MicroPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49E77A8281DC1160077427D /* MicroPhone */ = {
+			isa = PBXGroup;
+			children = (
+				D49E77A9281DC1160077427D /* AppDelegate.swift */,
+				D49E77AB281DC1160077427D /* SceneDelegate.swift */,
+				D49E77AD281DC1160077427D /* ViewController.swift */,
+				D49E77AF281DC1160077427D /* Main.storyboard */,
+				D49E77B2281DC1170077427D /* Assets.xcassets */,
+				D49E77B4281DC1170077427D /* LaunchScreen.storyboard */,
+				D49E77B7281DC1170077427D /* Info.plist */,
+			);
+			path = MicroPhone;
+			sourceTree = "<group>";
+		};
+		D49E77BF281DC1170077427D /* MicroPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D49E77C0281DC1170077427D /* MicroPhoneTests.swift */,
+			);
+			path = MicroPhoneTests;
+			sourceTree = "<group>";
+		};
+		D49E77C9281DC1170077427D /* MicroPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D49E77CA281DC1170077427D /* MicroPhoneUITests.swift */,
+				D49E77CC281DC1170077427D /* MicroPhoneUITestsLaunchTests.swift */,
+			);
+			path = MicroPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49E77A5281DC1160077427D /* MicroPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E77D0281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhone" */;
+			buildPhases = (
+				D49E77A2281DC1160077427D /* Sources */,
+				D49E77A3281DC1160077427D /* Frameworks */,
+				D49E77A4281DC1160077427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroPhone;
+			productName = MicroPhone;
+			productReference = D49E77A6281DC1160077427D /* MicroPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49E77BB281DC1170077427D /* MicroPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E77D3281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhoneTests" */;
+			buildPhases = (
+				D49E77B8281DC1170077427D /* Sources */,
+				D49E77B9281DC1170077427D /* Frameworks */,
+				D49E77BA281DC1170077427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49E77BE281DC1170077427D /* PBXTargetDependency */,
+			);
+			name = MicroPhoneTests;
+			productName = MicroPhoneTests;
+			productReference = D49E77BC281DC1170077427D /* MicroPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D49E77C5281DC1170077427D /* MicroPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E77D6281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhoneUITests" */;
+			buildPhases = (
+				D49E77C2281DC1170077427D /* Sources */,
+				D49E77C3281DC1170077427D /* Frameworks */,
+				D49E77C4281DC1170077427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49E77C8281DC1170077427D /* PBXTargetDependency */,
+			);
+			name = MicroPhoneUITests;
+			productName = MicroPhoneUITests;
+			productReference = D49E77C6281DC1170077427D /* MicroPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49E779E281DC1160077427D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D49E77A5281DC1160077427D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D49E77BB281DC1170077427D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D49E77A5281DC1160077427D;
+					};
+					D49E77C5281DC1170077427D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D49E77A5281DC1160077427D;
+					};
+				};
+			};
+			buildConfigurationList = D49E77A1281DC1160077427D /* Build configuration list for PBXProject "MicroPhone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D49E779D281DC1160077427D;
+			productRefGroup = D49E77A7281DC1160077427D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49E77A5281DC1160077427D /* MicroPhone */,
+				D49E77BB281DC1170077427D /* MicroPhoneTests */,
+				D49E77C5281DC1170077427D /* MicroPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49E77A4281DC1160077427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E77B6281DC1170077427D /* LaunchScreen.storyboard in Resources */,
+				D49E77B3281DC1170077427D /* Assets.xcassets in Resources */,
+				D49E77B1281DC1160077427D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77BA281DC1170077427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77C4281DC1170077427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49E77A2281DC1160077427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E77AE281DC1160077427D /* ViewController.swift in Sources */,
+				D49E77AA281DC1160077427D /* AppDelegate.swift in Sources */,
+				D49E77AC281DC1160077427D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77B8281DC1170077427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E77C1281DC1170077427D /* MicroPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E77C2281DC1170077427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E77CD281DC1170077427D /* MicroPhoneUITestsLaunchTests.swift in Sources */,
+				D49E77CB281DC1170077427D /* MicroPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49E77BE281DC1170077427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49E77A5281DC1160077427D /* MicroPhone */;
+			targetProxy = D49E77BD281DC1170077427D /* PBXContainerItemProxy */;
+		};
+		D49E77C8281DC1170077427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49E77A5281DC1160077427D /* MicroPhone */;
+			targetProxy = D49E77C7281DC1170077427D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49E77AF281DC1160077427D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49E77B0281DC1160077427D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D49E77B4281DC1170077427D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49E77B5281DC1170077427D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49E77CE281DC1170077427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D49E77CF281DC1170077427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49E77D1281DC1170077427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicroPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MicroPhone;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49E77D2281DC1170077427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicroPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MicroPhone;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D49E77D4281DC1170077427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroPhone.app/MicroPhone";
+			};
+			name = Debug;
+		};
+		D49E77D5281DC1170077427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroPhone.app/MicroPhone";
+			};
+			name = Release;
+		};
+		D49E77D7281DC1170077427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroPhone;
+			};
+			name = Debug;
+		};
+		D49E77D8281DC1170077427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.MicroPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49E77A1281DC1160077427D /* Build configuration list for PBXProject "MicroPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E77CE281DC1170077427D /* Debug */,
+				D49E77CF281DC1170077427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49E77D0281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E77D1281DC1170077427D /* Debug */,
+				D49E77D2281DC1170077427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49E77D3281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E77D4281DC1170077427D /* Debug */,
+				D49E77D5281DC1170077427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49E77D6281DC1170077427D /* Build configuration list for PBXNativeTarget "MicroPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E77D7281DC1170077427D /* Debug */,
+				D49E77D8281DC1170077427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D49E779E281DC1160077427D /* Project object */;
+}
